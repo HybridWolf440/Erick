@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+}
+header{
+    width: 1366px;    
+    height: 250px;
+    background-color: #D99C2B;
+}
+section{
+    width: 1366px;
+    height: auto;
+    margin-bottom: 40px;
+}
+.publicaciones{
+    width: 1366px;
+    display: flex;
+}
+.publi1{
+    width: 550px;
+    height: 320px;
+    background-color: aqua;
+    margin-left: 40px;
+    padding: 10px;
+    display: flex;
+}
+
+.publi2{
+    width: 550px;
+    height: 320px;
+    background-color: aqua;
+    margin-left: 40px;
+    padding: 10px;
+    display: flex;
+}
+
+.publi3{
+    width: 550px;
+    height: 320px;
+    background-color: aqua;
+    margin-left: 40px;
+    padding: 10px;
+    display: flex;
+}
+
+.publi4{
+    width: 550px;
+    height: 320px;
+    background-color: aqua;
+    margin-left: 40px;
+    padding: 10px;
+    display: flex;
+}
+.foto{
+    width: 250px;
+    height: 300px;
+    margin-top: 5px;
+    background-color: burlywood;
+    margin-left: 5px;
+}
+.text{
+    width: 250px;
+    height: 300px;
+    margin-top: 5px;
+    background-color: burlywood;
+    margin-left: 5px;
+    
+}
+footer{
+    width: 1366px;
+    height: 400px;
+    background-color: violet;   
+}

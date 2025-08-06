@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitacora DOMpt.2</title>
+    <link rel="stylesheet" href="estilos/b1.css">
+</head>
+
+<body>
+    <Header>
+        
+        <h1>HTML Adaptativo</h1>
+        
+    </Header>
+    <nav class="navs">
+        <a href="pt1">JavaScript</a>
+        <a href="pt2.html">DOM</a>
+        <a href="#">DOM parte 2</a>
+        <a href="p4.html">Viewport</a>
+        </nav>
+    <section>
+        <div class="univ">
+        <h2>Eventos</h2>
+        <p>El HTML DOM permite ejecutar el código cuando ocurre un evento.</p>
+        <p>El navegador genera eventos cuando "suceden cosas" a elementos HTML como:</p>
+        <ul>
+            <li>Al hacer click con el mouse - <b>onclik</b></li>
+            <li>Al doble click con el mouse - <b>ondblclick</b></li>
+            <li>Al colocar el mouse sobre un elemento - <b>onmouseover</b></li>
+            <li>Al alejar el mouse de un elemento - <b>onmouseout</b></li>
+            <li>Cuando una página web ha cargado - <b>Onload</b></li>
+            <li>Al persionas una teccla - <b>onkeydown</b></li>
+            <li>Al hacer scroll en la página - <b>onscroll</b></li>
+        </ul>
+        <h3>Onmouseover</h3>
+        <p>En el ejemplo se usan eventos "onmouseover" y "onmouseout" sobre un elemento div para modificar su estilo de
+            CSS</p>
+        <div class="circulo2"></div>
+        <h3>EventListener</h3>
+        <p>El metodo addEventListener() adjunta controlador de eventos al elemento especificado.</p>
+        <p>La sintaxis para este método es la siguiente:</p>
+        <p><B>elemento.addEventListener(evento, funcion)</B></p>
+        <br>
+        <p>El metodo removerEventListener() se puede usar para eliminar un controlador de enventos que se haya adjuntado
+            con el método add EbentListener()</p>
+        <p>El método document.addEventListener() se usa para adjuntar un controlador de evnetos al documento HTML</p>
+        <H3>addEventListener:</H3>
+        <p>Se usa addEventListener para ejecutar una funciín sobre div cuando el uduario hace mousover sobre otro div
+        </p>
+        <h3>Rem ove EventListener()</h3>
+        <p>Se usa para eliminar un controlador de enventos que se ha adjuntado con el método addEventListener</p>
+        <p>Para eliminar controladores de eventos, la función especificada con el método addEventListener debe ser un
+            función externa.</p>
+        <p>El elemento fildset tiene un evento onmouseove que mues</p>
+        <!--pendiente-->
+        <h2>Operadores lógicos</h2>
+        <img src="" alt="">
+        <h2>Declaración condicional</h2>
+        <p>Una declaración condicional se usa para determinar el flujo del programa basado en un condición</p>
+        <img src="assets/if.jpg" alt="">
+        <p>Cuando se escribe código, se realizan diferentes acciones para diferentes decisiones. Para hacer esto se
+            pueden usar sentencias condiciones en el código</p>
+        <p>En JS se tienen las siguientes declaraciones:</p>
+        <ul>
+            <li><b>if: </b>Que es para especificar un bloque de código para ejecutatse, su una condición especificada es
+                verdadera</li>
+            <li><b>else: </b>Para especificar un bloque de código para que se ejecute, si la misam condicion es falsa
+            </li>
+        </ul>
+        <h3>Ejemplos:</h3>
+        <p><b>if(condición){</b><br>
+            código que será ejecutado si la condición es verdadera
+            <br>}
+        </p>
+        <p>else{ <br>
+            código que se ejecuta cuando la condicion es falsa
+            <br>}
+        </p>
+        <h3>Otras condiciones:</h3>
+        <p><b>else if: </b>Permite evaluar multiples condiciones secuencialmente. ESto es útil cuando se tienen más
+        de dos posibles situaciones que manejar en el código</p>
+        <p><b>if(condición){</b><br>
+            código que será ejecutado si la condición es verdadera
+            <br>}
+            <br>
+            Si es falsa se pasa a la sigiente condición
+        </p>
+        <p><b>else if{
+                <br>si es verdadera, se ejecuta su bloque de código y se termina evaluando
+                <br>
+                Si es falsa, se pasa a la siguiente condición
+                }</b></p>
+        <p>
+            <b>else</b>
+            Este bloque se ejecuta si ninguna de la condiciones anterioeres fue cerdadera.Es opcional para util para
+            manejar casos no previstos.
+        </p>
+
+
+
+        </div>
+    </section>
+<footer></footer>
+</body>
+
+</html>

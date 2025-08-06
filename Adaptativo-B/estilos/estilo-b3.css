@@ -1,0 +1,31 @@
+@font-face {
+    font-family: parrafos;
+    src: url(../fuentes/lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: titulos;
+    src: url(../fuentes/static/SourceSans3-Black.ttf);
+}
+p{
+ font-family: parrafos, sans-serif;
+ font-size: 20px;
+}
+h2{
+    font-size: 30px;
+    font-family: titulos, sans-serif;
+}
+h3{
+    font-size: 25px;
+    font-family: titulos, sans-serif;
+}
+body{
+    width: 1366px;
+    height: auto;
+    padding: 50px;
+}
+img{
+    display: inline;
+}
+.blur{
+    filter: blur(10px);
+}

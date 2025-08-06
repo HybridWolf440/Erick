@@ -1,0 +1,118 @@
+section{
+    width: 1366px;
+    height: 19895px;
+    margin: auto;
+    background-color: #b8c3ec;
+}
+#logo{
+    margin-left: 40px;
+}
+@font-face {
+        font-family: lato;
+        src: url(../fuentes/lato/Lato-Regular.ttf) format(truetype);
+    }
+@font-face {
+    font-family: oswald;
+    src: url(../fuentes/Oswald.ttf) format(truetype);
+}
+h1{
+    text-align: right;
+    font-family: oswald;
+    margin-right: 150px;
+    font-size: 70px;
+    margin-top: -140px;
+}
+h2{
+    font-family: oswald;
+    margin: 24px;
+    font-size: 35px;
+    color: aliceblue;
+}
+header{
+    width: 1366px;
+    height: 300px;
+    margin: auto;
+    background-color: #f7e73e
+    ;
+}
+img{
+    margin-top: 50px;
+}
+nav{
+    width: 1366px;
+    height: 100px;
+    margin: auto;
+    background-color: #787075;
+    position: sticky;
+    top: 0;
+
+}
+nav a{
+    height: auto;
+    width: auto;
+    text-align: left;
+    font-size: 17px;
+    float: left;
+    margin-top: 35px;
+    padding: 5px 10px;
+    margin-left: 19px;
+    display: inline;
+    color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+    color: #07364F;
+}
+img {
+    border-radius: 30px;
+}
+nav a:hover{
+    padding: 8px 10px;
+    border-radius: 8px;
+    background-color: #899ae0;
+    box-shadow: 4px 4px 4px #566dca;
+}
+aside {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    position: sticky;
+    font-size: 40px;
+    top: 540px;
+    left : 1300px;
+}
+i{
+    padding: 8px 8px;
+}
+.cont {
+        font-family: lato;
+        width: 1000px;
+        height: auto;
+        margin: auto;
+        border-radius: 25px;
+        background-color: #2395C0;
+        box-shadow: 7px 15px 10px #1c7394;
+        color: aliceblue;
+}
+ul{
+    font-family: lato;
+    margin: 24px;
+    font-size: 20px;
+}
+p{
+    font-family: lato;
+    text-align: justify;
+    font-size: 20px;
+    margin: 24px;
+}
+footer{
+    width: 1366px;
+    height: 300px;
+    margin: auto;
+    background-color: #F2870A;
+}
+span{
+    display: block;
+    margin-left: 20px;
+    text-align: center;
+}

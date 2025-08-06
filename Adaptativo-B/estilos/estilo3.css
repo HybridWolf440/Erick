@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+#principal{
+    width: 1366px;
+    height: 5900px;
+    margin: auto;
+}
+#encabezado{
+    width: 1366px;
+    height: 200px;
+    background-color: #e09132;
+}
+.logo{
+    float: left;
+    text-align: center;
+    margin-left: 278px;
+}
+.bita{
+    float: left;
+    text-align: end;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: auto;
+}
+#menu{
+    width: 1366px;
+    height: 66px;
+    background-color: #a58e74;
+    text-align: left;
+    float: left;
+}
+#menu a{
+    text-align: left;
+    float: left;
+    font-size: 30px;
+    color:#ffffff;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Assistant', sans-serif;
+    padding: 5px 15px;
+}
+#menu :hover{
+    background-color: #c0ab92;
+}
+.ttcont{
+    width: 1366px;
+    height: auto;
+    margin-top: 5px;
+    float: left;
+}
+#contenido{
+    width: 1366px;
+    height: 5614px;
+    background-color: #fef3da;
+}
+.texto{
+    width: 585px;
+    height: auto;
+    float: left;
+    margin-top: 65px;
+    margin-left: 40px;
+    text-align:center;
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    display: block;
+}
+.stpdd{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    color: #4e74c6;
+}
+.foto{
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.foto1{
+    float: left;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 86px;
+}
+.foto2{
+    float: left;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 500px;
+}
+.bini{
+    width: 585px;
+    height: 66px;
+}
+.bini a{
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#ffffff;
+    text-decoration: none;
+    padding-left: 15px 10px;
+}
+#pie{
+    width: 1366px;
+    height: 200px;
+    background-color: #424530;
+}
+.pietext{
+
+    color: #ffffff;
+}
+h2{
+    font-family: 'Josefin Sans', sans-serif; 
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitacora JS</title>
+    <link rel="stylesheet" href="estilos/b1.css">
+</head>
+
+<body>
+    <Header>
+        
+        <h1>HTML Adaptativo</h1>
+        
+    </Header>
+    <nav class="navs">
+            <a href="#">JavaScript</a>
+            <a href="pt2.html">DOM</a>
+            <a href="pt3.html">DOM parte 2</a>
+            <a href="p4.html">Viewport</a>
+        </nav>
+    <section>
+        <div id="JS" class="univ">
+            <h2 id="Js">JavaScript Introducción</h2>
+            <p>JavaScript o también conocido como JS es un lenguaje de programación orientado a objetos, dialecto del
+                estándar ECMAScript.</p>
+            <p>JS fue desarollado originalmente por Berndan Eich de Netscape con el nombre de Mocha,Después fue nombrado
+                como LifeScript y finalmente a día de hoy JavaScript</p>
+            <img src="assets/Brendan-Eich.jpg" alt="Brendan Eich">
+            <p>El cambio de nombre coincidió con el momento en que netscape agregó compatibilidad con la tecnología Java
+                en su navegador en diciembre de 1995</p>
+            <p>Este cambio de nombre dio la impresion de que el lenguaje es una prolongacion de Java. Pero esto no es
+                así
+                ya que tienen diferentes semánticas y propósitos
+                En 1997 los autores propusieron a Js para que fuera el estándar de la European Computer Manufacturers
+                'Association ECMA. En junio de 1997 fue adoptado como el estándar ECMa, con el nombre de ECMAScript.
+                Poco tiempo desués
+                también como estándar ISO.JS se diseñó con una sintaxis similar a C, aunque usa nombres y convenciones
+                del lenguaje Java</p>
+
+
+            <P>Se usa principalmente del lado del cliente, de manera que es parte de un navegador web permitiendo así
+                mejoras en la interfaz de usuario y páginas web dinámicas, aunque existe una forma de JS del lado del
+                sevidos (Server-side JavaScript o SSJS).
+                En 2012, todos los navegadores modernos soportan ECMAScript 5.1, una version de JS. Los más antiguos al
+                menos soportan ECMAScript 3.
+            </P>
+        </div>
+        <div id="JSenHTML" class="univ">
+            <h2>Insertar JavaScript en HTML</h2>
+            <p>Hay dos maneras de hacerlo</p>
+            <ul>
+                <li>Agrega JavaScript directamente en el archivo HTMl</li>
+                <img src="assets/forma1.png" alt="AgregaJS">
+                <p>El codigo puede ser colocado tanto en el head como en el body.</p>
+                <ul>
+                    <li>Head: La carga será diferente. Se recomienda agregarlo en el head para que este separado del
+                        HTML.</li>
+                    <li>Body: Ayuda a la que la carga sea más rapida, ya que el contenido cargara más rapido y después
+                        de eso se procesa más rapido el JavaScript</li>
+                </ul>
+                <li>Agrega codigo JavaScript en un archivo separado</li>
+                <img src="assets/forma2.png" alt="AgregaJS2">
+            </ul>
+        </div>
+        <div id="metodo" class="univ">
+            <h2>Método - getElementbyId()</h2>
+            <p>El método getElementbyId() devuelve el elemento que tiene el atributo ID con el valor que es
+                especificado.</p>
+            <p>Este es uno de los métodos más comunes en el DOM de HTML y se usa cada que se desea manipular u obtener
+                información de un elemento del documento</p>
+            <p>Si no existen elenentos con el Id que es especificado devuelve nulo</p>
+            <p>Un ID debe ser unico dentro de una página. Pero si existe más de un Id igual, el método getElementbyId()
+                devuelve el primer elemento Id con ese nombre que encuentre</p>
+        </div>
+        <div id="variables" class="univ">
+            <h2>variables</h2>
+            <p>Las variables de JavaScript son contendeores para almacenar valores de datos</p>
+            <p>todas las variables de JavaScript deben identificarse con nombres unicos. Estos nombres unicos son
+                llamados identificadores</p>
+            <p>Los identificadores pueden llevar nombres cortos (X, Y) o nombres más descriptivos (edad, suma, total,
+                nombre)</p>
+            <p>Se usa <b>"var, let y/o const"</b> para crear variables</p>
+            <p><b>var</b> es la abreviatura de variable, es una palabra clave de JavaScript que crea, o declara una
+                nueva variable.</p>
+            <h3>Reglas generales para construir nombres para variables</h3>
+            <ul>
+                <li>Los nombres deben comenzar con una letra.</li>
+                <li>Los nombres pueden contener letras, dígitos, guiones bajos y signos de dólar.</li>
+                <li>Los nombres también pueden comenzar con $ y _</li>
+                <li>Los nombres distinguen entre mayúsculas y minúsculas (N y n son variables diferentes)</li>
+                <li>Las palabras reservadas (Como las palavras clave de JavaScript no se pueden usar como nombres)</li>
+            </ul>
+            <img src="assets/VarVal.jpg" alt="Variables Validas">
+            <img src="assets/VarNOVal.jpg" alt="Variables no validas">
+        </div>
+        <div id="operadores" class="univ">
+            <h2>Operadores aritméticos</h2>
+            <p>JavaScript tiene un amplio conjunto de operadores, en los que se incluyen los famosos operadores
+                aritméticos, logicos, bit a bit y de asignación, así como algunos operadores varios.</p>
+            <p>Los operadores permiten realizar cpalculos complejos y tomar decisiones lógicas en función de
+                comparaciones y otros tipos de condiciones</p>
+            <p>Los operadores aritméticos estándar son adición o suma (+), sustracción o resta(-), multiplicación(*),
+                divicion(/), incremento(++), decremento(--)</p>
+        </div>
+        <div id="funciones" class="univ">
+            <h2>Funciones</h2>
+            <p>Las funciones son uno de los pilares de JS</p>
+            <p>Una función es un procedimiento en JS, un conjunto de sentencias que realizan una tarea o que calculan
+                algún valor</p>
+            <p>Para usar una función debe declararla en algún lugar y se ejecura cuando "algo" la llama</p>
+            <p>La sintaxis para declarar funciones en JS es: <br></p>
+            <img src="assets/funciones.jpg" alt="Funciones">
+        </div>
+        <div id="Datos" class="univ">
+            <h2>Tipos de datos</h2>
+            <h3>Cadena (string)</h3>
+            <p>un valor de cadena esta formado por una cadena de cero o más caracteres Unicode (letras, dígitos y signos
+                de puntuación). Este tipo de datos se usa para reprecentar texto en JavaScript</p>
+            <h3>Número</h3>
+            <p>En JavaScript, no se distingue entre valores enteros y de punto flotante; un número de JavaScript puede
+                ser cualquiera de ellos (Internamente, JavaScript representa todos los números como valores de punto
+                flotante)</p>
+            <p>Los valores enteros pueden ser números enteros positivos, númerso enteros negativos y 0.</p>
+            <h3>Boleano</h3>
+            <p>Este tipo de datos pueden tener unicamente dos valores diferentes, los cuales son: True y false</p>
+            <p>Un valor booleano es u valor de validez: especifica si una condición es verdadera o no</p>
+
+            <h2>Eventos</h2>
+            <p>Un evento HTML puede ser algo que hace el navegador, o algo que hace un usuario. JavaScript puede
+                "reaccionar" a esto eventos</p>
+            <p>Algunos comunes son:</p>
+            <ul>
+                <li>onchange: Un elemento HTML ha sido cambiado</li>
+                <li>onclick: El usuario hace click en un elemento HTML</li>
+                <li>onmouseover: El usuario mueve el mouse sobre un elemento HTML</li>
+                <li>onmouseout: El usuario aleja el mouse del elemento HTML</li>
+                <li>onkeydown: El usaurio presiona una tecla del teclado</li>
+                <li>onload: El navegador ha terminado de cargar la página</li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

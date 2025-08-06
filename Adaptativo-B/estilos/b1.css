@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: lator;
+    src: url(/fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: robotob;
+    src: url(/fonts/Roboto/Roboto-Bold.ttf);
+}
+
+header {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(211, 161, 169);
+}
+
+.navs {
+    width: 100%;
+    height: auto;
+    background-color: #464646;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.navs a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px 10px;
+    font-family: robotob, serif;
+    font-size: 20px;
+
+}
+
+.navs a:hover {
+    background-color: #797979;
+    border-radius: 13px;
+
+}
+
+section {
+    width: 100%;
+    height: auto;
+    padding-bottom: 2%;
+    background-color: rgb(60, 60, 60);
+}
+
+h2,
+h3 {
+    font-family: roboto;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: roboto;
+    color: white;
+    text-align: center;
+    font-size: 500%;
+
+    padding: 3% 5%;
+}
+
+p,
+ul {
+    font-family: lator;
+    font-size: 100%;
+    align-items: center;
+    text-align: justify;
+    color: rgb(196, 196, 196);
+}
+
+ul {
+    align-items: center;
+    text-align: justify;
+    list-style: none;
+    margin: 5%;
+}
+
+li {
+    margin: 1%;
+}
+
+.univ {
+    width: 90%;
+    margin-left: 7%;
+    padding-top: 3%;
+}
+
+fieldset {
+    width: 70%;
+    height: auto;
+    background-color: rgb(255, 192, 203);
+    margin-left: 15%;
+    margin-top: 2%;
+    border-radius: 30px;
+    border: none;
+    padding: 1% 2%;
+}
+fieldset p{
+    color: #000000;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 3px 3px #2e6191;
+    border: none;
+    margin-top: 1%;
+    background-color: #90b4d6;
+    color:rgb(60, 60, 60)
+}
+/*
+fieldset p{
+    width: 90%;
+    margin-left: 2%;
+}*/
+#circulo1{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: aquamarine;
+}
+.estilo3{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: aquamarine;
+}
+.estilo1{
+    width: 100px;
+    height: 100px;
+    margin-top: 1%;
+    background-color: blue;
+}
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(54, 21, 54);
+}

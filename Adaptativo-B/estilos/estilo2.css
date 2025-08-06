@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    /*hace que no crezca el padding*/
+}
+#principal{
+    width: 1366px;
+    height: 2025px;
+    margin: 0 auto;
+    margin-top: 0 auto;
+    
+}
+header{
+    width: 1366px;
+    height: 186px;
+    background-color: #9B4D4F;
+    text-align: center;
+}
+nav{
+    width: 1366px;
+    height: 63px;
+    background-color: #D7B0B8;
+    float: left;
+}
+nav a{
+    float:left;
+    margin-left: 240px;
+    text-align: left;
+    font-size: 25px;
+    text-decoration: none;
+    line-height: 3px;
+    color: rgb(255, 253, 253);
+    padding: 5px 14px;
+    font-family: 'Assistant', sans-serif;
+}
+nav a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(119, 105, 105);
+}
+section{
+    width: 1366px;
+    height: 877px;
+    background-color: #FAF0ED
+    ;
+}
+.bitacora{
+    margin-top: 100px;
+    float: left;
+    text-align: left;
+    margin-left: 130px;
+}
+.parcial{
+    margin-top: 200px;
+    float: left;
+    text-align: left;
+    margin-left: 90px;
+}
+footer{
+    width: 1366px;
+    height: 184px;
+    background-color: #9B3848;
+}
+/*
+
+.menu2{
+    width: 1116px;
+    height: 1377px;
+    float: right;
+}
+.par{
+    margin-top: 50px;
+    margin-right: 70px;
+}
+.texto{
+    width: 447px;
+    height: 373px;
+    margin: 30px;
+    margin-left: 70;
+    border-radius: 20%;
+    float: right;
+    padding: 15px;
+    text-align: center;
+    color: azure;
+    font-family: 'Roboto Slab', serif;
+}
+.binicio{
+    margin-top: 50px;
+    margin-right: 78px;
+}
+.ini{
+    float: center;
+    margin-bottom: 70px;
+}
+.bitacora{
+    float: right;
+    margin-bottom: 72px;
+    margin-top: 70px;
+}*/

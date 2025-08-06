@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    /*hace que no crezca el padding*/
+}
+p{
+    font-size: medium;
+    font-family: 'Assistant', sans-serif;
+}
+#principal {
+    width: 1366px;
+    height: 2025px;
+    margin: auto;
+    
+}
+
+#encabezado {
+    width: 1366px;
+    height: 160px;
+    background-color: #d5b683;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
+    text-align: center;
+}
+.logo{
+    float: left;
+    text-align: left;
+
+}
+#menu {
+    width: 1366px;
+    height: 60px;
+    background-color: #c49c6d;
+
+}
+
+#menu a {
+    color: rgb(253, 255, 240);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 100px;
+    line-height: 60px;
+    padding: 15px 20px;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+#menu a:hover {
+    background-color: #957147;
+
+}
+
+#contenido {
+    width: 1366px;
+    height: 1700px;
+    background-color: #fdd8a5;
+    /*background-image: url(imagenes-toh/casa3.jpg); /*../ es para salir de la carpeta de css*/
+    /*background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+.personaje {
+    width: 1300px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 33px;
+    float: left;
+}
+
+.foto {
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-left: 33px;
+}
+
+.texto {
+    width: 800px;
+    height: 400px;
+    float: left;
+    margin-left: 33px;
+    padding: 10px; /*margen interno para el elmento, padding agrega a la etiqueta y agranda la etiqueta*/
+    background-color: #ffdfbd;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #000;
+}
+.texto a {
+    color: #812121;
+    text-decoration: none;
+}
+
+.texto a:hover {
+    color: rgb(157, 141, 141);
+    text-decoration: underline;
+}
+
+#pie {
+    width: 1366px;
+    height: 115px;
+    background-color: #9f6e44;
+    text-align: center;
+}
+
+#pie a {
+    color: rgb(253, 255, 240);
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    line-height: 4px;
+    padding: 10px 20px;
+}
+
+#pie a:hover {
+    background-color: #c89357;
+
+}
+
+h2 {
+    color: #462610;
+    font-family: 'Ubuntu Mono', monospace;
+}

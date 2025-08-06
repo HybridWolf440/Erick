@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/b1.css">
+    <title>Bitacora Viewport</title>
+</head>
+
+<body>
+    <Header>
+
+        <h1>HTML Adaptativo</h1>
+
+    </Header>
+    <nav class="navs">
+        <a href="pt1.html">JavaScript</a>
+        <a href="pt2.html">DOM</a>
+        <a href="pt3.html">DOM parte 2</a>
+        <a href="#">Viewport</a>
+    </nav>
+    <section>
+        <div class="univ">
+            <h2>viewport</h2>
+            <p>El viewport o ventana gráfica es el área visible del usuario de una página web.
+                Varía según el dispositivo y será más pequeña en un smartphone que en la computadora.
+            </p>
+            <p>Antes de las tabletas y los teléfonos móviles, las páginas web se diseñaban solo para pantallas de
+                computadora, y era común que las páginas web tuvieran un sieño estático y un tamaño fijo</p>
+            <p>Para solucionar esto, los navegadores en esos dispositivos redujeron la página web completa para
+                ajustarse a
+                la pantalla</p>
+
+            <fieldset>
+                <p>Los usuario están acostumbrados a desplazar sitios web verticalmente tanto en dispositivos de
+                    escritorio
+                    como móviles, pero no horizontalmente.</p>
+                <p>Por lo tanto, si el usuario se ve obligado a desplazarse horizontalmente o alejarse, para ver toda la
+                    página web, se obtiene una experiencia de usuario pobre</p>
+            </fieldset>
+            <ul>
+                <li>
+                    HTML5 introdujo un método para permitir que los diseñadores web tomen el control de la ventana
+                    gráfica,
+                    a través de la etiqueta < meta>
+                </li>
+                <li>Un elemento de vista < meta> le da al vacegador instrucciones sobre cómo controlar las dimensiones y
+                        escala de la página.</li>
+                <!--Imagen meta viewport-->
+                <li>La parte de la escala inicial = 1.0 establece el nivel de zooom inicial cuando el navegador carga la
+                    página por primera vez</li>
+                <!--imagen resaltando la escala-->
+            </ul>
+            <p>Ejemplo de una web sin la etiqueta meta de venta gráfica, y la misam web con la etiqueta meta viewport
+            </p>
+            <h2>Definicion</h2>
+            <p>Las medidas queries son un módulo de CSS3 que adapta la representación del contenido a las caracteríticas
+                de
+                un dispositivo</p>
+            <p>se convirtio en un estándar recomendado por la W3C en junio de 2012 y es un principio básico del diseño
+                web
+                adaptativo.</p>
+            <h2>Historia</h2>
+            <p>Las media queries se propusieron por primera vez en la propuesta inicial de CSS de Håkon Wium Lie en
+                1994,
+                pero no se convirtió en parte de CSS1</p>
+            <img src="assets/Hakon_Wium_Lie.jpeg" alt="">
+            <p>La recomendacion HTML4 de 1997 muestra un ejemplo de como podría agregarse en el futuro.</p>
+            <p>En el 200, la W3C comenzo a trabahar en la media queriers y también en otro esquema para el soporte de
+                varios
+                dispositivo: CC/PP(Compositie Capability/Preference Profiles).</p>
+            <p>Las 2 acciones estaban orientadas al mismo problema, pero CC/PP es centrado en el servidor, mientras los
+                Media Queries están centrados en el cliente</p>
+            <p>EL primer borrador público para Media Queries fue publicado en 2001, y la especificación se convirtió en
+                una
+                recomendación de la W3C en el 2012 después que los navegadores le dieran soporte</p>
+
+            <h2>@media</h2>
+            <p>CSS2 introdujo tipos de medios. La regla @media, intoducida en CSS2, hizo posible definir diferentes
+                reglas
+                de estilos para diferentes tipos de medios.</p>
+            <p>Se podrían definir reglas de estilo para computadoras, impresoras, dispositivos de mano, televisones,
+                etc.
+            </p>
+            <p>Desafortunadamente, estos tipos de medios nunca recibieron muchos soporte por parte de los dispositivos,
+                aparte del tipo de medios de impresión.</p>
+            <h3>@media CSS3</h3>
+            <p>CSS3 introdujo media queriers que extendieron la idea de los tipos de media de CSS2: en lugar de buscar
+                un
+                tipo de dispositivo, analizan la capacidad del dispositivo.</p>
+            <p>Las media queriers se pueden usar para verificar cosas, como: ancho y alto de la ventana gráfica, ancho y
+                alto del dispositivo, orientación del dispositivo(horizontal y vertical) y la resolución</p>
+            <p>EL uso de media queriers es una tecnica popular para entregar una hoja de estilo personalizada para
+                computadoras de esctitorio, computadoras portátiles, tabletas y teléfonos (como los Iphone y Android)
+            </p>
+            <h2>Soporte del navegador</h2>
+            <p>Los números en la tambla especifican la primera versión del navegador que es totalmente compatible con la
+                regla @media</p>
+            <!--tablas de navegadores-->
+            <h2>Tipos de medias</h2>
+            <img src="assets/tabla de medios.png" alt="">
+        </div>
+
+    </section>
+    <footer></footer>
+</body>
+
+</html>
